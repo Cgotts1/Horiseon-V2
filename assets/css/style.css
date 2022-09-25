@@ -118,12 +118,12 @@ p {
     color: #ffffff;
 }
 
-/* .benefit-lead h3 {
+/* .benefit-lead h3 {           
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+.benefit-brand h3 {                      
     margin-bottom: 10px;
     text-align: center;
 }
@@ -133,20 +133,12 @@ p {
     text-align: center;
 } */
 
-.benefit-lead h3 {
+/* Got rid of the three above here and just put h3 */
+
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} 
 
 /* .benefit-lead img {
     display: block;
@@ -166,23 +158,13 @@ p {
     max-width: 150px;
 } */
 
-.benefit-lead img {
+/* got rid of the three above and just used aside img */
+
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} 
 
 /* .search-engine-optimization {
     margin-bottom: 20px;
@@ -211,25 +193,9 @@ p {
     color: #ffffff;
 } */
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+/*got rid of the three above and add content section*/
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
+.content section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -250,15 +216,9 @@ p {
     max-height: 200px;
 } */
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
+/* Got rid of the three above and just put content img*/
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
+.content img {
     max-height: 200px;
 }
 
@@ -277,24 +237,12 @@ p {
     font-size: 36px;
 } */
 
+/* Got rid of the three above and just put h2*/
 
-.search-engine-optimization h2 {
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} 
-
-
-
 
 .footer {
     padding: 30px;
@@ -303,6 +251,6 @@ p {
     text-align: center;
 }
 
-footer.h3 {                  /* changed h2 to h3 for sequential order tied it into the footer class */
+footer.h4 {                  /* changed h2 to h4 for sequential order tied it into the footer class */
     font-size: 20px;
 }

@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-.header nav {                      /* changed div to nav to place navitgation items back in proper place on web page */
+.header nav {                      /* changed div to nav to place navigation items back in proper place on web page */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -251,6 +251,6 @@ h2 {
     text-align: center;
 }
 
-footer.h4 {                  /* changed h2 to h4 for sequential order tied it into the footer class */
+footer.h4 {                  /* changed h2 to h4 for sequential order */
     font-size: 20px;
 }

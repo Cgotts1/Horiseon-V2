@@ -103,17 +103,9 @@ p {
 }
 */
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/* Got rid of the three classes above and made the class o in place of the three separate ones in html */
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
+.o {
     margin-bottom: 32px;
     color: #ffffff;
 }

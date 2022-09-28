@@ -22,9 +22,11 @@ body {
 
 .header h1 .seo {
     color: #d9dcd6;
+    background-color: transparent;
 }
 
-.header nav {                      /* changed div to nav to place navigation items back in proper place on web page */
+/* Navigation bar */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +34,11 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {                    /* changed div to nav */
+.header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {                    /* changed div to nav */
+.header nav ul li {      
     display: inline-block;
     margin-left: 25px;
 }
@@ -50,6 +52,7 @@ p {
     font-size: 16px;
 }
 
+/* Figure attribute */
 .hero {
     height: 800px;
     width: 100%;
@@ -86,107 +89,25 @@ p {
     background-color: #2589bd;
 }
 
-/*
-.benefit-lead {
+/* Covers all benefit sections */
+.benefits-section {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-*/
-
-/* Got rid of the three classes above and made the class o in place of the three separate ones in html */
-
-.o {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* .benefit-lead h3 {           
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {                      
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-/* Got rid of the three above here and just put h3 */
 
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* .benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
-/* got rid of the three above and just used aside img */
-
+/* Images in benefit section */
 aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* .search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
-
-/*got rid of the three above and add content section*/
-
+/* Company service sections */
 .content section {
     margin-bottom: 20px;
     padding: 50px;
@@ -196,46 +117,17 @@ aside img {
     color: #ffffff;
 }
 
-/* .search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-} */
-
-/* Got rid of the three above and just put content img*/
-
+/* Images in company service sections */
 .content img {
     max-height: 200px;
 }
-
-/* .search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
-
-/* Got rid of the three above and just put h2*/
 
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Footer with copyright text */
 .footer {
     padding: 30px;
     clear: both;
@@ -243,6 +135,6 @@ h2 {
     text-align: center;
 }
 
-footer.h4 {                  /* changed h2 to h4 for sequential order */
+footer h4 {
     font-size: 20px;
 }

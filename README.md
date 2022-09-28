@@ -8,7 +8,7 @@ and navigation links were checked to ensure proper functionality.
 
 ## Usage
 
-![Horiseon Screenshot] (/assets/docs/screenshot-horiseon.png)
+![Horiseon Screenshot](/assets/docs/screenshot-horiseon.png)
 
 ## Credits
 
